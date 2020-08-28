@@ -8,7 +8,7 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.3'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: :development
 # 本番ではpostgressを使用する
-gem 'pg', group: :production
+gem "pg", "~> 0.21.0", group: :production
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
