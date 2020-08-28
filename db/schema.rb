@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_28_053655) do
+ActiveRecord::Schema.define(version: 2020_08_28_105658) do
 
   create_table "memos", force: :cascade do |t|
     t.text "text"
@@ -23,6 +23,8 @@ ActiveRecord::Schema.define(version: 2020_08_28_053655) do
     t.string "password"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "token"
+    t.index ["token"], name: "index_users_on_token", unique: true
   end
 
 end
