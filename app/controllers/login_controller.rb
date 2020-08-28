@@ -1,7 +1,5 @@
 class LoginController < ApplicationController
-  def login
     def login
-      # ↓ここから
       login_user = User.find_by(email:params[:email],password:params[:password])
       if login_user != nil
         render plain: login_user.token
