@@ -14,7 +14,7 @@ login_controller.rb
 ## API使い方
 https://rails-api-memo-test.herokuapp.com/users  
 getリクエスト ユーザー一覧  
-https://rails-api-memo-test.herokuapp.com/login/lgin  
+https://rails-api-memo-test.herokuapp.com/login/login  
 postリクエスト ログイン機能 返り値 トークン値  
 https://rails-api-memo-test.herokuapp.com/memos  
 getリクエスト ヘッダーにAuthorization でトークン値を付随してリクエスト  
