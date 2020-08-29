@@ -22,3 +22,8 @@ getリクエスト ヘッダーにAuthorization でトークン値を付随し�
 ## カラム、パラメータ
 ユーザー  {user:{ email:パラメータ,password: パラメータ}}  
 メモ  {memo:{ test: パラメータ}}
+
+## 参考サイト
+https://qiita.com/k-penguin-sato/items/adba7a1a1ecc3582a9c9  
+https://qiita.com/c5meru/items/1c921676de8a5a038f70  
+https://qiita.com/ochiochi/items/966b884eb17045dfb929  
