@@ -12,6 +12,8 @@ users_controller.rb
 login_controller.rb
 
 ## API使い方
+https://rails-api-memo-test.herokuapp.com/
+
 https://rails-api-memo-test.herokuapp.com/users  
 getリクエスト ユーザー一覧  
 https://rails-api-memo-test.herokuapp.com/login/login  
